@@ -1,0 +1,129 @@
+# ------------------------------
+# Laravel Default
+# ------------------------------
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+.phpunit.cache
+artisan.log
+
+# ------------------------------
+# Laravel IDE Helper
+# ------------------------------
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.generated.meta.php
+
+# ------------------------------
+# Laravel Telescope / Horizon
+# ------------------------------
+storage/telescope
+storage/horizon
+
+# ------------------------------
+# Laravel Mix / Vite / Webpack
+# ------------------------------
+/public/hot
+/public/mix-manifest.json
+/public/build
+/build
+/build/*
+/vite.config.js
+/vite.config.ts
+
+# ------------------------------
+# Compiled View files
+# ------------------------------
+/storage/framework/views/*.php
+/storage/framework/cache/data/*
+/storage/logs/*.log
+
+# ------------------------------
+# Composer
+# ------------------------------
+/composer.lock
+/composer.phar
+
+# ------------------------------
+# PHPUnit / Pest
+# ------------------------------
+/tests/coverage
+/.coverage
+/coverage.xml
+/.phpunit.result.cache
+
+# ------------------------------
+# OS Specific
+# ------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------
+# Editor Specific
+# ------------------------------
+# PHPStorm / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+.history/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------
+# NPM / Yarn / PNPM Logs
+# ------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------
+# Docker
+# ------------------------------
+docker-compose.override.yml
+.docker/
+*.pid
+
+# ------------------------------
+# Cache / temp files
+# ------------------------------
+*.log
+*.tmp
+*.cache
+*.swp
+*.bak
+*.seed
+
+# ------------------------------
+# Optional: Keep public/.gitignore
+# ------------------------------
+!.gitignore
+
+# ------------------------------
+# Optional: Ignore database dumps
+# ------------------------------
+*.sql
+*.sqlite
+*.db
+database/database.sqlite
+
+# ------------------------------
+# Optional: Ignore screenshots / uploads
+# ------------------------------
+storage/app/public/uploads/
+public/uploads/
+storage/debugbar/
