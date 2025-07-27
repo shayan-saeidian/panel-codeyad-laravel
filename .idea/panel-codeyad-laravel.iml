@@ -8,6 +8,9 @@
       <sourceFolder url="file://$MODULE_DIR$/panel/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/panel/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/panel/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/panel/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/panel/vendor/brianium/paratest" />
       <excludeFolder url="file://$MODULE_DIR$/panel/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/panel/vendor/carbonphp/carbon-doctrine-types" />

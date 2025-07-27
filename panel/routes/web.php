@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\PanelController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -9,6 +10,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/login',[AuthController::class,'login'])->name('login');
+Route::get('/register',[AuthController::class,'register'])->name('register');
+Route::get('/forget_password',[AuthController::class,'forgetPassword'])->name('forget_password');
 
 Route::prefix('admin')->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
