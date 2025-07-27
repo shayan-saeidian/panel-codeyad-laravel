@@ -136,6 +136,8 @@
       <excludeFolder url="file://$MODULE_DIR$/panel/vendor/_laravel_idea" />
       <excludeFolder url="file://$MODULE_DIR$/panel/vendor/opcodesio/log-viewer" />
       <excludeFolder url="file://$MODULE_DIR$/panel/vendor/opcodesio/mail-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/panel/storage/app" />
+      <excludeFolder url="file://$MODULE_DIR$/panel/storage/framework" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
