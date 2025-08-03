@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>احراز هوین</title>
+    <title>احراز هویت</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{url('panel/assets/media/image/favicon.png')}}">

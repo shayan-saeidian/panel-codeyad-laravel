@@ -12,7 +12,11 @@ Route::get('/', function () {
 
 
 Route::get('/login',[AuthController::class,'login'])->name('login');
+Route::post('/login',[AuthController::class,'enterUser'])->name('enter');
+
 Route::get('/register',[AuthController::class,'register'])->name('register');
+Route::post('/register',[AuthController::class,'submitUser'])->name('submit_user');
+
 Route::get('/forget_password',[AuthController::class,'forgetPassword'])->name('forget_password');
 
 Route::prefix('admin')->group(function () {

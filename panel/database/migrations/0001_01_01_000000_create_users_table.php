@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('family');
             $table->string('email')->unique();
-            $table->string('mobile')->unique();
+            $table->string('mobile')->unique()->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('status')->default(UserStatus::Active->value);
