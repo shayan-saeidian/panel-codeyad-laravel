@@ -21,7 +21,7 @@
             </div>
             <div class="form-group d-sm-flex justify-content-between text-left mb-4">
                 <div class="custom-control custom-checkbox">
-                    <input name="be_login" type="checkbox" class="custom-control-input" checked id="customCheck1">
+                    <input name="remember" type="checkbox" class="custom-control-input" checked id="customCheck1">
                     <label class="custom-control-label" for="customCheck1">به خاطر سپاری</label>
                 </div>
                 <a class="d-block mt-2 mt-sm-0" href="{{route('forget_password')}}">بازنشانی رمز عبور</a>

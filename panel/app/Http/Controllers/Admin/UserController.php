@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\UserRequest;
 use App\Models\Post;
 use App\Models\User;
+
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -37,7 +39,12 @@ class UserController extends Controller
         return redirect()->route('admin.users.index');
     }
     public function edit($id){
+
+        if (!Gate::allows('admin')) {
+            return redirect(route('admin_home'));
+        }
         $user=User::query()->find($id);
+//        Gate::authorize('admin',$user);
 //        $user=DB::table('users')->where('id',$id)->first();
         return view('admin.users.edit',compact('user'));
     }
